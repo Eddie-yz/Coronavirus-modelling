@@ -21,4 +21,4 @@ plt.legend(loc='upper left')
 plt.show()
 ```
 
-![](C:\Users\mbfdc\Desktop\Figure_1.png)
+![](Figure_1.png)
