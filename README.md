@@ -1,7 +1,9 @@
 # Coronavirus-modelling
 
 ### update data to date
+```
 python data/dataUpdate.py
+```
 
 ### get data from a province(by name) or a country(by code)
 
