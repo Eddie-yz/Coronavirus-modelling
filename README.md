@@ -6,6 +6,7 @@ python data/dataUpdate.py
 ```
 
 ### get data from a province(by name) or a country(by code)
+The data source is https://github.com/canghailan/Wuhan-2019-nCoV/, thanks for the contribution.
 
 ```python
 from data.fetchdata import getProvinceData, getCountryData
