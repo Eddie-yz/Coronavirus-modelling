@@ -21,7 +21,7 @@ plt.legend(loc='upper left')
 plt.show()
 ```
 
-![](Figure_1.png)
+![](pic/Figure_1.png | width=100)
 
 
 ## SEIR-C model
@@ -37,13 +37,13 @@ Besides the assumptions, we also made some constraints on the parameters, which 
 ## SEIR-V model
 Considering the government intervention, we know that the contact rate and recovery rate should not remain unchanged. As the COVID-19 spreads, the government will start to take more serious and strict controls which help increase people's awareness of prevention. With more and more schools and public facilities closed and most people staying home to avoid person-to-person contact, the contact rate beta will definitely drop through time. In addition, the recovery rate gamma will also start to rise since all the medical professions have more experience to deal with the virus. In our proposed SEIR-V model, we characterized the change of beta and gamma by two piecewise linear functions of time as shown below, where beta_i and gamma_i are learned parameters.
 
-![](beta_gamma.png)
+![](pic/beta_gamma.png)
 
 ## Result Comparison
 We took the data of first 40 days in Zhejiang province for training, and then used the trained parameters to predict the population of the infectious from March 1st by iteratively applying the model to the data predicted from the previous day. The forecast curves are shown in the figure below.
 
-![](zhejiang.png)
+![](pic/zhejiang.png)
 
 By taking these more reasonable and realistic assumptions into consideration, obviously, thr proposed SEIR-V model achieved a much better performance than SEIR-C, especially on the unseen data. We evaluated two models by mean absolute error, the SEIR-V model decreases the MAE by 61.5% from the SEIR-C model. (See the table below)
 
-![](MAE.png)
+![](pic/MAE.png)
