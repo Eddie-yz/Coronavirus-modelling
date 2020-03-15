@@ -21,7 +21,7 @@ plt.legend(loc='upper left')
 plt.show()
 ```
 
-![](pic/Figure_1.png | width=100)
+![](pic/Figure_1.png)
 
 
 ## SEIR-C model
