@@ -109,7 +109,8 @@ def predict_and_plot(X, y, date, start_predict, params):
     date = [d[5:] for d in date]
     plt.xticks(np.arange(0, days, 5))
     plt.show()
-    mape = np.mean(np.abs(np.array(predict_infected) - y.flatten()))
+    predict_error = (np.array(predict_infected) - y.flatten())[start_predict:]
+    mape = np.mean(np.abs(predict_error))
     return predict_infected, mape
 
 def computeBeta(params, t):
@@ -202,7 +203,8 @@ def predict_and_plot_dyn(X, y, date, start_predict, params, sigma=0.02531358, ga
     date = [d[5:] for d in date]
     plt.xticks(np.arange(0, days, 5))
     plt.show()
-    mae = np.mean(np.abs(np.array(predict_infected) - y.flatten()))
+    predict_error = (np.array(predict_infected) - y.flatten())[start_predict:]
+    mae = np.mean(np.abs(predict_error))
     return predict_infected, mae
 
 def predict_and_plot_dyn_for_other_region(X, y, days, start_predict, params, sigma=0.02531358, gamma=0.07680123): 
