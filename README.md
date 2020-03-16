@@ -46,6 +46,6 @@ We took the data of first 40 days in Zhejiang province for training, and then us
 
 ![](pic/zhejiang.png)
 
-By taking these more reasonable and realistic assumptions into consideration, obviously, thr proposed SEIR-V model achieved a much better performance than SEIR-C, especially on the unseen data. We evaluated two models by mean absolute error, the SEIR-V model decreases the MAE by 84.4% from the SEIR-C model. (See the table below)
+By taking these more reasonable and realistic assumptions into consideration, obviously, the proposed SEIR-V model achieved a much better performance than SEIR-C, especially on the unseen data. We evaluated two models by mean absolute error, the SEIR-V model decreases the MAE by 84.4% from the SEIR-C model. (See the table below)
 
 ![](pic/MAE.png)
