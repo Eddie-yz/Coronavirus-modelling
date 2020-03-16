@@ -24,7 +24,7 @@ plt.show()
 
 ![](pic/Figure_1.png)
 
-In this project, we mainly use the data from Feb. 2, 2020 to Mar. 30, 2020 of Zhejiang province, China.
+In this project, we mainly use the data from Feb. 2, 2020 to Mar. 30, 2020 of **Zhejiang province, China**.
 
 ## SEIR-C model
 #### Assumptions
