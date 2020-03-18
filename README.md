@@ -24,7 +24,7 @@ plt.show()
 
 ![](pic/Figure_1.png)
 
-In this project, we mainly use the data from Feb. 2, 2020 to Mar. 30, 2020 of Zhejiang province, China.
+In this project, we mainly use the data from Feb. 2, 2020 to Mar. 13, 2020 of **Zhejiang province, China**.
 
 ## SEIR-C model
 #### Assumptions
@@ -46,6 +46,6 @@ We took the data of first 40 days in Zhejiang province for training, and then us
 
 ![](pic/zhejiang1.png)
 
-By taking these more reasonable and realistic assumptions into consideration, obviously, thr proposed SEIR-V model achieved a much better performance than SEIR-C, especially on the unseen data. We evaluated two models by mean absolute error, the SEIR-V model decreases the MAE by 84.4% from the SEIR-C model. (See the table below)
+By taking these more reasonable and realistic assumptions into consideration, obviously, the proposed SEIR-V model achieved a much better performance than SEIR-C, especially on the unseen data. We evaluated two models by mean absolute error, the SEIR-V model decreases the MAE by 84.4% from the SEIR-C model. (See the table below)
 
 ![](pic/MAE.png)
