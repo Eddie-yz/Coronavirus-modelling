@@ -10,11 +10,11 @@ python dataUpdate.py
 The data source is https://github.com/canghailan/Wuhan-2019-nCoV/, thanks for the contribution.
 
 ```python
-from data.fetchdata import getProvinceData, getOtherRegionData
+from data.fetchdata import getProvinceData, getCountryData
 
 date, confirmed, recovered = getProvinceData("浙江省")
 # or
-# date, confirmed, recovered = getOtherRegionData("JP")
+# date, confirmed, recovered = getCountryData("JP")
 
 plt.plot(recovered, label='cured')
 plt.plot(confirmed, label='confirmed')
