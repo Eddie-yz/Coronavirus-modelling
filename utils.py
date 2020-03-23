@@ -1,11 +1,7 @@
 import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
 
-from data.fetchdata import getProvinceData, getCountryData
 
 
 def dataPrepare(total_population, confirmed, recovered, exposed_ratio):
