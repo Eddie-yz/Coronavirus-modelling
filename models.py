@@ -5,8 +5,6 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from data.fetchdata import getProvinceData, getCountryData
-
 class SSEIR(nn.Module):
     '''
     Model that only has constraints on beta, sigma and gamma,\n
