@@ -2,7 +2,8 @@
 
 ### update data to date
 ```
-python data/dataUpdate.py
+cd data
+python dataUpdate.py
 ```
 
 ### get data from a province(by name) or a country(by code)
