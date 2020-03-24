@@ -8,7 +8,7 @@
 
 [4.Prediction result comparison on real data](#Result-Comparison)
 
-[5.Infectious data comparison from different regions]()
+[5.Infectious data visualization of different regions (Mar 23, 2020 update)](#Data-visualization-for-different-regions)
 
 ### update data to date
 ```
@@ -62,9 +62,9 @@ By taking these more reasonable and realistic assumptions into consideration, ob
 ![](pic/MAE.png)
 
 ## Data visualization for different regions
-We plotted the infectious data of different regions(As shown below). In the curves of Zhejiang province and Fujian province, China, where the outbreak has been basically under control, there exists an obvious upward trend followed by a downward trend. And the downward trend has also started to show up in the curve of South Korea. This is good!
+We plotted the infectious data of different regions(as of Mar 23, 2020). In the curves of Zhejiang province and Fujian province, China, where the outbreak has been basically under control, there exists an obvious upward trend followed by a downward trend. And the downward trend has also started to show up in the curve of South Korea. This is good!
 
-However, from the curves of Italy, America ,and Hong Kong SAR, we can see the turning point has not arrived yet, numbers are still exploding. 
+However, from the curves of Italy, America ,and Hong Kong SAR, we can see the turning point has not arrived yet, the steep upward trajectories are still there and numbers are still exploding. 
 
 Hope governments take more aggressive actions to mitigate the spread of COVID 19. Hope everyone stay safe.
 
