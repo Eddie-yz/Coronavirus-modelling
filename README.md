@@ -68,5 +68,3 @@ However, from the curves of Italy, America ,and Hong Kong SAR, we can see the tu
 
 Hope governments take more aggressive actions to mitigate the spread of COVID 19. Hope everyone stay safe.
 
-![](pic/regions.png)
-
