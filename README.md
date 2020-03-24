@@ -1,5 +1,11 @@
 # Coronavirus-modelling
 
+1.[Update and fetch data](#update-data-to-date)
+2.[SEIR model with constant parameters (SEIR-C)](#SEIR-C-model)
+3.[SEIR model with variant parameter (SEIR-V)](#SEIR-V-model)
+4.[Prediction result comparison on real data](#Result-Comparison)
+
+
 ### update data to date
 ```
 cd data
