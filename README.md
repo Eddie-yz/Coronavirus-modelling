@@ -8,6 +8,7 @@
 
 [4.Prediction result comparison on real data](#Result-Comparison)
 
+[5.Infectious data comparison from different regions]()
 
 ### update data to date
 ```
@@ -59,3 +60,13 @@ We took the data of first 40 days in Zhejiang province for training, and then us
 By taking these more reasonable and realistic assumptions into consideration, obviously, the proposed SEIR-V model achieved a much better performance than SEIR-C, especially on the unseen data. We evaluated two models by mean absolute error, the SEIR-V model decreases the MAE by 84.4% from the SEIR-C model. (See the table below)
 
 ![](pic/MAE.png)
+
+## Data visualization for different regions
+We plotted the infectious data of different regions(As shown below). In the curves of Zhejiang province and Fujian province, China, where the outbreak has been basically under control, there exists an obvious upward trend followed by a downward trend. And the downward trend has also started to show up in the curve of South Korea. This is good!
+
+However, from the curves of Italy, America ,and Hong Kong SAR, we can see the turning point has not arrived yet, numbers are still exploding. 
+
+Hope governments take more aggressive actions to mitigate the spread of COVID 19. Hope everyone stay safe.
+
+![](pic/regions.png)
+
